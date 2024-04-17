@@ -12,7 +12,7 @@ const page = () => {
     <div className=" font-mont">
       <Navbar />
       <hr />
-      <div className="max-w-5xl flex items-center justify-center mx-auto">
+      <div className="max-w-5xl flex items-center md:justify-center mx-auto">
         <div>
           <Image
             src="/WhatsApp Image 2024-01-28 at 7.30.59 PM.jpeg"
@@ -29,7 +29,7 @@ const page = () => {
       <hr />
       <div className="max-w-5xl w-full mx-auto lg:p-10 p-5">
         <div>
-          {" "}
+          sS{" "}
           <p className="w-full ">
             Hello, my name is Chiaky Otuteye, and when I can’t stop thinking
             about something, I write it down. I have always wondered why
