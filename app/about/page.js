@@ -29,7 +29,6 @@ const page = () => {
       <hr />
       <div className="max-w-5xl w-full mx-auto lg:p-10 p-5">
         <div>
-          sS{" "}
           <p className="w-full ">
             Hello, my name is Chiaky Otuteye, and when I can’t stop thinking
             about something, I write it down. I have always wondered why
