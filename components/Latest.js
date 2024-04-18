@@ -11,11 +11,10 @@ const Latest = () => {
 
         <div className="md:w-[50%] w-[80%] flex-1">
           <div>
-            {" "}
             This is the best place to be when you want to read amazing articles
-            put together.{" "}
+            put together.
           </div>
-          <p className="mt-5 bg-black text-white p-4">
+          <p className="mt-5 text-sm bg-black text-white p-4">
             Get a cup of coffee🍵 and<span> enjoy😍</span>
           </p>
         </div>

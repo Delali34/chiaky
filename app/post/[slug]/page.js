@@ -4,7 +4,7 @@ import { getPostDetails } from "@/services";
 import PostDetail from "@/components/PostDetails";
 
 import Author from "@/components/Author";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar2";
 
 const Page = ({ params }) => {
   const [post, setPost] = React.useState(null);

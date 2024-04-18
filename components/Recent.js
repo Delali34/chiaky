@@ -12,7 +12,7 @@ const Recent = () => {
           Trending
         </div>
       </div>
-      <hr />
+      <hr className="h-px  bg-gray-200 border-0 dark:bg-gray-700" />
     </section>
   );
 };
