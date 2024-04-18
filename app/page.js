@@ -44,15 +44,12 @@ const Page = () => {
               <div className="lg:mt-20 mt-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                   {loading
-                    ? // Render loading skeleton when data is loading
-                      Array.from({ length: 4 }, (_, index) => (
+                    ? Array.from({ length: 4 }, (_, index) => (
                         <div key={index} className="flex">
-                          {/* Skeleton */}
                           <div className="animate-pulse w-full bg-gray-100 h-[180px]"></div>
                         </div>
                       ))
-                    : // Render post cards when data is fetched
-                      posts.map((post, index) => (
+                    : posts.map((post, index) => (
                         <div key={index} className="flex">
                           <PostCard post={post.node} />
                         </div>
