@@ -40,14 +40,17 @@ const page = () => {
             understand how they affect us. While I understand that some fields
             have their own terminology, I also believe that information should
             be easily accessible to everyone, and that’s what Musings of A
-            Concerned African Woman is really about. My goal is to bring the
-            issues that affect the world, especially my African brothers and
-            sisters, right to your doorstep in easily understandable and
-            digestible language. Conversation is important, and that is
-            something I hope to see here. Through these thought-provoking
-            pieces, I will share my thoughts, and I will encourage you to do
-            same. We all have a role to play in creating the world we see, and
-            all we have is each other
+            Concerned African Woman is really about.
+          </p>
+          <p className="pt-2">
+            {" "}
+            My goal is to bring the issues that affect the world, especially my
+            African brothers and sisters, right to your doorstep in easily
+            understandable and digestible language. Conversation is important,
+            and that is something I hope to see here. Through these
+            thought-provoking pieces, I will share my thoughts, and I will
+            encourage you to do same. We all have a role to play in creating the
+            world we see, and all we have is each other
           </p>
           <hr className="mt-10" />
           <div className="flex gap-2 justify-center">
