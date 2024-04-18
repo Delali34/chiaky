@@ -33,15 +33,18 @@ const page = () => {
             Hello, my name is Chiaky Otuteye, and when I can’t stop thinking
             about something, I write it down. I have always wondered why
             important issues that affect everyone are discussed in language that
-            the average person, like you and I, find difficult to understand. As
-            a result, a lot of us do not have a lot of interest in some of these
-            issues of politics, culture, health, policies, the economy among
-            others, not because we do not care, but because we usually do not
-            understand how they affect us. While I understand that some fields
-            have their own terminology, I also believe that information should
-            be easily accessible to everyone, and that’s what Musings of A
-            Concerned African Woman is really about.
+            the average person, like you and I, find difficult to understand.
           </p>
+          <p className="w-full pt-2">
+            As a result, a lot of us do not have a lot of interest in some of
+            these issues of politics, culture, health, policies, the economy
+            among others, not because we do not care, but because we usually do
+            not understand how they affect us. While I understand that some
+            fields have their own terminology, I also believe that information
+            should be easily accessible to everyone, and that’s what Musings of
+            A Concerned African Woman is really about.
+          </p>
+
           <p className="pt-2">
             {" "}
             My goal is to bring the issues that affect the world, especially my
@@ -53,34 +56,38 @@ const page = () => {
             world we see, and all we have is each other
           </p>
           <hr className="mt-10" />
-          <div className="flex gap-2 justify-center">
-            <Link
-              href="https://www.linkedin.com/in/chiaky-otuteye-md-a85464145?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-              target="_blank"
-            >
-              <div className="mt-10">
-                <FaLinkedin className="text-4xl hover:scale-105" />
-              </div>
-            </Link>
-            <Link href="https://x.com/thechiaky?s=21" target="_blank">
-              <div className="mt-10">
-                <FaXTwitter className="text-4xl hover:scale-105" />
-              </div>
-            </Link>
-            <Link
-              href="https://www.instagram.com/thechiaky?igsh=cGZxeG9hdzczMzFr&utm_source=qr"
-              target="_blank"
-            >
-              <div className="mt-10">
-                <FaInstagramSquare className="text-4xl hover:scale-105 " />
-              </div>
-            </Link>
-            <Link href="Stephaniecotuteye@gmail.com" target="_blank">
-              <div className="mt-10">
-                <MdAttachEmail className="text-4xl hover:scale-105" />
-              </div>
-            </Link>
+          <div className="">
+            <h1 className="text-center pt-5 font-semibold">Get In Touch</h1>
+            <div className="flex gap-2 justify-center">
+              <Link
+                href="https://www.linkedin.com/in/chiaky-otuteye-md-a85464145?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                target="_blank"
+              >
+                <div className="mt-10">
+                  <FaLinkedin className="text-4xl hover:scale-105" />
+                </div>
+              </Link>
+              <Link href="https://x.com/thechiaky?s=21" target="_blank">
+                <div className="mt-10">
+                  <FaXTwitter className="text-4xl hover:scale-105" />
+                </div>
+              </Link>
+              <Link
+                href="https://www.instagram.com/thechiaky?igsh=cGZxeG9hdzczMzFr&utm_source=qr"
+                target="_blank"
+              >
+                <div className="mt-10">
+                  <FaInstagramSquare className="text-4xl hover:scale-105 " />
+                </div>
+              </Link>
+              <Link href="Stephaniecotuteye@gmail.com" target="_blank">
+                <div className="mt-10">
+                  <MdAttachEmail className="text-4xl hover:scale-105" />
+                </div>
+              </Link>
+            </div>
           </div>
+
           <hr className="mt-10" />
         </div>
       </div>
