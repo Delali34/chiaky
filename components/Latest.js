@@ -5,8 +5,11 @@ const Latest = () => {
     <section className="max-w-5xl py-20 mx-auto px-5">
       {" "}
       <div className="flex md:flex-row flex-col justify-between gap-10 md:items-center">
-        <div className="md:w-[50%] flex-1 text-3xl font-bold">
-          Welcome to my Blog
+        <div className="md:w-[50%] flex-1 text-sm">
+          Welcome to <br />{" "}
+          <span className="text-2xl font-semibold">
+            Musings of A <br /> Concerned African Woman <br /> Blog``
+          </span>
         </div>
 
         <div className="md:w-[50%] w-[80%] flex-1">
