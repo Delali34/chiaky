@@ -49,12 +49,12 @@ const Page = () => {
 
   return (
     <div>
-      <div className="bg-[#B9A4F6]">
+      <div className="bg-[#cab9fa]">
         <Navbar />
         <hr className="bg-black" />
         <Latest />
       </div>
-      <div className="bg-[#f7f1e1]">
+      <div className="bg-yellow-50">
         <Recent />
         <div className="max-w-5xl mt-4 mx-auto px-4">
           <div className="flex flex-wrap justify-center mb-4">
