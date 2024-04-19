@@ -49,7 +49,7 @@ const Page = () => {
 
   return (
     <div>
-      <div className="bg-white">
+      <div className="bg-[#B9A4F6]">
         <Navbar />
         <hr className="bg-black" />
         <Latest />
