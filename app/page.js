@@ -54,7 +54,7 @@ const Page = () => {
         <hr className="bg-black" />
         <Latest />
       </div>
-      <div className="bg-yellow-50">
+      <div className="bg-white">
         <Recent />
         <div className="max-w-5xl mt-4 mx-auto px-4">
           <div className="flex flex-wrap justify-center mb-4">
