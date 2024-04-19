@@ -8,7 +8,7 @@ const Latest = () => {
         <div className="md:w-[50%] flex-1 text-sm">
           Welcome to <br />{" "}
           <span className="text-2xl font-semibold">
-            Musings of A <br /> Concerned African Woman <br /> Blog``
+            Musings of A <br /> Concerned African Woman <br /> Blog
           </span>
         </div>
 
