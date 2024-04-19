@@ -72,7 +72,7 @@ const Page = () => {
               <button
                 key={category.slug}
                 onClick={() => handleCategoryClick(category.slug)}
-                className={`mx-2 my-1 px-3 py-1 flex-wrap rounded-md ${
+                className={`mx-2 my-1 md:text-[16px] text-[12px] px-3 py-1 flex-wrap rounded-md ${
                   selectedCategory === category.slug
                     ? "bg-black text-white"
                     : "border-2 border-black text-black"
