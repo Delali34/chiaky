@@ -3,6 +3,7 @@ import moment from "moment";
 import Link from "next/link";
 import { getCategories } from "@/services";
 import { FaRegNewspaper } from "react-icons/fa";
+import Image from "next/image";
 
 const PostCard = ({ post }) => {
   const truncateText = (text, maxLength) => {
@@ -15,7 +16,9 @@ const PostCard = ({ post }) => {
           <div className="overflow-hidden ">
             {" "}
             <Link href={`/post/${post.slug}`}>
-              <img
+              <Image
+                width={1000}
+                height={1000}
                 className="w-[500px] h-[200px] overflow-hidden object-cover hover:scale-110 transition duration-700 "
                 src={post.featuredImage.url}
                 alt=""
