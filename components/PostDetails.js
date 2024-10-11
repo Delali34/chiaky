@@ -102,8 +102,8 @@ const PostDetail = ({ post }) => {
           className="w-full h-[350px] object-cover"
           src={post.featuredImage?.url}
           alt={post.title}
-          width={1000}
-          height={1000}
+          width={2000}
+          height={2000}
         />
       </div>
       {/* Post content */}

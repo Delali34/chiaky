@@ -40,6 +40,7 @@ const PostCard = ({ post }) => {
               <h2 className="md:text-[16px] text-[13px] text-gray-500 hover:text-black duration-100 font-medium">
                 {post.title}
               </h2>
+              <p className="text-[10px]">{post.excerpt}</p>
             </div>
           </Link>
         </div>
